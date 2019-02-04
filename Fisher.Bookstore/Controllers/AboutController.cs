@@ -7,17 +7,16 @@ namespace Fisher.Bookstore.Controllers
     {
         public IActionResult Index()
         {
-            return Content("About Controller's Index Action");
+            return View();
         }
 
         public IActionResult History()
         {
-            return Content("About Controller's History Action");
+            return View();
         }
-
         public IActionResult Location()
         {
-            return Content("About Controller's Location Action");
+            return View();
         }
     }
 }
